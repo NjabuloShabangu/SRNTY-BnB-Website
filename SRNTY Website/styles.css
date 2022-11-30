@@ -1,0 +1,181 @@
+body {
+  font-family: Montserrat, Arial, Sans Serif;
+  margin: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+tr {
+  display: inline;
+}
+
+/******INDEX.HTML*******/
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 10%;
+  float: right;
+  margin-top: 300px;
+}
+
+.home {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.homepage-body {
+  display: flex;
+  background-color: #cbc7b7;
+  margin-left: 0;
+  padding: 100px 5%;
+
+}
+
+.offer-cards {
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #F5F5F5;
+  padding: 20px 0;
+}
+
+.navbar-item {
+  color: black;
+  font-size: 20px;
+  float: right;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.secondary-heading {
+  margin: 10px;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.secondary-image {
+  padding: 30px 30px 0 30px;
+  height: 400px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0..3s;
+  float: left;
+  margin: 50px;
+}
+
+.site-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.welcome-heading {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.welcome-left {
+  width: 50%;
+}
+
+.welcome-right {
+  width: 50%;
+}
+
+/******CONTACT US*******/
+
+.contact-body {
+  background-color: #cbc7b7;
+  padding: 50px 5%;
+}
+
+.contact-heading {
+  margin-bottom: 10px;
+}
+
+.long-input {
+  width: 300px;
+  height: 100px;
+}
+
+.short-input {
+  width: 200px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+input[type=submit] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+/********HOST PAGE**********/
+
+.host-pg-body {
+  background-color: white;
+  padding: 30px 5%;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 70px;
+}
+
+.host-name {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.main-image {
+  border-radius: 50%;
+  width: 500px;
+  padding: 20px;
+}
+
+.host-text {
+  font-size: 18px;
+  margin: 5px;
+  font-weight: 300;
+}
+
+
+/******CUISINE******/
+
+.cuisine-heading {
+  font-size: 60px;
+}
+
+.food-image {
+  width: 500px;
+  padding: 20px;
+}
